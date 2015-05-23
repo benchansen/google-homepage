@@ -1,0 +1,146 @@
+div {
+  display: block;
+  margin-top: 10px;
+}
+
+body {
+  padding-top: 31px;
+  overflow: hidden;
+  margin: 8px;
+}
+
+center {
+  padding-bottom: 35px;
+  margin-top: 215px;
+  mrgin-left: -30px
+}
+
+img {
+  height: 95px;
+  width: 269px;
+  margin-top: -50px;
+}
+
+input[type="search"] {
+  width: 569px;
+  height: 27px;
+  border: 1px solid #cccccc;
+  background: url("http://files.softicons.com/download/toolbar-icons/black-wireframe-toolbar-icons-by-gentleface/png/16/mic.png") no-repeat;
+  background-position: 5px 5px;
+  background-align: right;
+  text-align: right;
+}
+
+input[type="search"]:hover {
+  border: 1px solid #b3b3b3;
+}
+
+.ul {
+  list-style-type: none;
+  margin-right: 100px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  left: 20px;
+}
+
+#header {
+  position: relative;
+  margin-top: -10px;
+  padding: 0;
+  height: 50px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.you, .gmail, .images, .apps, .signin {
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+  font-family: arial, sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li button {
+  position: absolute;
+  color: #fff;
+  background-color: #4285f4;
+  border: none;
+  height: 30px;
+  width: 71px;
+  right: 0;
+  margin-top: -4px;
+}
+
+.logo {
+  position: relative;
+  paddint-bottom: 35px;
+}
+
+.apps {
+  position: absolute;
+  right: 79px;
+  background-image: url("https://lh3.ggpht.com/ExOY2XlSbdfFFE3BZ5l44wBQEU5JVsVrertIIdjPy93yfDfomhKx0waLXA9Hhv5qvg-b3aaq=w22");
+  background-position: -69px -854px;
+  padding-top: 9px;
+  padding-left: 4px;
+  
+}
+
+
+ div > button {
+   height: 29px;
+   width: 102px;
+   font-size: 11px;
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+   border: 1px solid #dcdcdc;
+   border-radius: 2px;
+   background-color: #f5f5f5;
+   margin: 11px 8px;
+   padding: 8px 0;
+ }
+
+ div > button:hover{
+   border: 1px solid #c6c6c6;
+ }
+
+ #footer {
+   bottom: 0;
+   font-size: 10px;
+   height: 50px;
+   line-height: 40px;
+   position: absolute;
+   width: 100%;
+ }
+
+ #fbar {
+   height: 50px;
+   background: #f2f2f2;
+   min-width: 100%;
+   border-top: 1px solid #e4e4e4;
+ }
+
+ #fsr {
+   float: right;
+   margin-right: 35px;
+   white-space: nowrap;
+ }
+
+.priv, .term, .set, a {
+  text-decoration: none;
+  color: #666;
+  padding: 15px;
+}
